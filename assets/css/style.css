@@ -50,6 +50,20 @@ header nav ul li a {
 
 
 /* Hero Style Start */
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color:#fce138;
+
+}
 .hero {
   background-image: url('../images/flipped-hero-image.jpg');
   height: 600px;
@@ -67,6 +81,8 @@ header nav ul li a {
   position: absolute;
   bottom: 120px;
   right: 140px;
+  width: 40%;
+  margin: 3.5%;
 }
 
 .hero-form h3 {
