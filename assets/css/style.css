@@ -23,6 +23,7 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header a {
   text-decoration: none;
@@ -45,6 +46,7 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -61,7 +63,7 @@ header nav ul li a {
   font-style: italic;
   font-size: 55px;
   color:#fce138;
-
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .hero {
   background-image: url('../images/flipped-hero-image.jpg');
@@ -75,11 +77,13 @@ header nav ul li a {
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -98,6 +102,7 @@ header nav ul li a {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .hero-form label {
@@ -110,6 +115,7 @@ header nav ul li a {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .intro p {
@@ -289,6 +295,7 @@ header nav ul li a {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -299,6 +306,7 @@ header nav ul li a {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .contact-info a {
